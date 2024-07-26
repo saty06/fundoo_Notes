@@ -146,3 +146,113 @@ Error: Please install pg package manually
     at Module.m._compile (C:\Users\admin\AppData\Local\Temp\ts-node-dev-hook-9688702208916182.js:69:33)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at require.extensions..jsx.require.extensions..js (C:\Users\admin\AppData\Local\Temp\ts-node-dev-hook-9688702208916182.js:114:20) {"date":"Thu Jul 25 2024 13:43:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":742058.515},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":110427,"external":2240800,"heapTotal":33452032,"heapUsed":22038264,"rss":63471616},"pid":21672,"uid":null,"version":"v20.14.0"},"stack":"Error: Please install pg package manually\n    at ConnectionManager._loadDialectModule (C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:81:15)\n    at new ConnectionManager (C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\node_modules\\sequelize\\src\\dialects\\postgres\\connection-manager.js:18:24)\n    at new PostgresDialect (C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\node_modules\\sequelize\\src\\dialects\\postgres\\index.js:15:30)\n    at new Sequelize (C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\node_modules\\sequelize\\src\\sequelize.js:368:20)\n    at Object.<anonymous> (C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\src\\config\\database.ts:26:19)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._compile (C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\admin\\AppData\\Local\\Temp\\ts-node-dev-hook-9688702208916182.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\admin\\AppData\\Local\\Temp\\ts-node-dev-hook-9688702208916182.js:114:20)","timestamp":"2024-07-25T08:13:15.624Z","trace":[{"column":15,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js","function":"ConnectionManager._loadDialectModule","line":81,"method":"_loadDialectModule","native":false},{"column":24,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\node_modules\\sequelize\\src\\dialects\\postgres\\connection-manager.js","function":"new ConnectionManager","line":18,"method":null,"native":false},{"column":30,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\node_modules\\sequelize\\src\\dialects\\postgres\\index.js","function":"new PostgresDialect","line":15,"method":null,"native":false},{"column":20,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\node_modules\\sequelize\\src\\sequelize.js","function":"new Sequelize","line":368,"method":null,"native":false},{"column":19,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\src\\config\\database.ts","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\fundoo_Notes\\fundoo_Notes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\admin\\AppData\\Local\\Temp\\ts-node-dev-hook-9688702208916182.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false},{"column":20,"file":"C:\\Users\\admin\\AppData\\Local\\Temp\\ts-node-dev-hook-9688702208916182.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:06:12.949Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:07:47.420Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:09:01.098Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:21:53.727Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:23:10.714Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:52:52.006Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:53:06.831Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:54:31.641Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:55:23.723Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:56:27.916Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T06:04:27.488Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T06:05:03.579Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'newUser')
+TypeError: Cannot read properties of undefined (reading 'newUser')
+    at UserRoutes.routes (C:\Users\admin\Desktop\fundoo_Notes\satya\demo_study\src\routes\user.route.ts:23:26)
+    at new UserRoutes (C:\Users\admin\Desktop\fundoo_Notes\satya\demo_study\src\routes\user.route.ts:12:10)
+    at routes (C:\Users\admin\Desktop\fundoo_Notes\satya\demo_study\src\routes\index.ts:15:24)
+    at App.initializeRoutes (C:\Users\admin\Desktop\fundoo_Notes\satya\demo_study\src\index.ts:45:52)
+    at new App (C:\Users\admin\Desktop\fundoo_Notes\satya\demo_study\src\index.ts:31:10)
+    at Object.<anonymous> (C:\Users\admin\Desktop\fundoo_Notes\satya\demo_study\src\index.ts:67:13)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._compile (C:\Users\admin\Desktop\fundoo_Notes\satya\demo_study\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\admin\AppData\Local\Temp\ts-node-dev-hook-5466350630367209.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) {"date":"Fri Jul 26 2024 11:37:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":820937.734},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":123651,"external":2293698,"heapTotal":35024896,"heapUsed":19892328,"rss":63156224},"pid":12032,"uid":null,"version":"v20.14.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'newUser')\n    at UserRoutes.routes (C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\routes\\user.route.ts:23:26)\n    at new UserRoutes (C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\routes\\user.route.ts:12:10)\n    at routes (C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\routes\\index.ts:15:24)\n    at App.initializeRoutes (C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\index.ts:45:52)\n    at new App (C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\index.ts:31:10)\n    at Object.<anonymous> (C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\index.ts:67:13)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._compile (C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\admin\\AppData\\Local\\Temp\\ts-node-dev-hook-5466350630367209.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)","timestamp":"2024-07-26T06:07:54.846Z","trace":[{"column":26,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":23,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":52,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\index.ts","function":"App.initializeRoutes","line":45,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\index.ts","function":"new App","line":31,"method":null,"native":false},{"column":13,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\src\\index.ts","function":null,"line":67,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\admin\\Desktop\\fundoo_Notes\\satya\\demo_study\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\admin\\AppData\\Local\\Temp\\ts-node-dev-hook-5466350630367209.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/1 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-07-26T06:12:27.733Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/2 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-07-26T06:12:45.960Z"}

@@ -1,0 +1,168 @@
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T04:55:24.215Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T04:55:24.497Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:06:12.949Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:07:47.420Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:09:01.098Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:21:53.727Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:23:10.714Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T05:29:21.771Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T05:29:22.035Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T05:30:46.470Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T05:30:49.007Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T05:30:49.273Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T05:34:22.038Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T05:34:22.351Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T05:42:53.883Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T05:42:54.120Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:52:52.006Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:53:06.831Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:54:31.641Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:55:23.723Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T05:55:39.165Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T05:55:39.407Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T05:55:55.677Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T05:55:56.162Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T05:56:02.460Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T05:56:02.887Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T05:56:17.729Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T05:56:17.963Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T05:56:27.916Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T06:04:27.488Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-26T06:05:03.579Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T06:07:55.139Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T06:08:35.437Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T06:08:35.699Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T06:08:55.682Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T06:08:55.960Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/1 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-07-26T06:12:27.733Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/2 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-07-26T06:12:45.960Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T06:13:41.717Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T06:13:41.974Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T06:15:24.249Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T06:15:24.506Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T07:04:15.279Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T07:04:15.531Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T08:10:38.858Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T08:10:41.068Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T08:10:41.307Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T08:26:40.561Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T08:26:40.857Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T08:30:24.020Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T08:30:24.274Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T08:45:36.327Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T08:45:36.877Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T08:57:43.668Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T08:57:44.051Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:05:15.170Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:05:15.459Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:06:42.989Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:06:43.326Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:07:31.034Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:07:31.319Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:08:12.300Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:08:12.561Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:09:54.425Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:09:54.805Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:10:50.246Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:10:50.537Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:13:51.615Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:13:51.862Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:13:54.142Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:13:54.503Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:16:11.083Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:16:14.584Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:16:14.856Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:18:57.639Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:18:58.009Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:19:29.570Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:19:29.961Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:20:10.304Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:20:10.652Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:27:55.177Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:27:55.521Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:28:35.403Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:28:35.668Z"}

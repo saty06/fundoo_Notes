@@ -4,6 +4,7 @@ import userService from '../services/user.service';
 
 import { Request, Response, NextFunction } from 'express';
 
+
 class UserController {
   public UserService = new userService();
 
@@ -42,12 +43,26 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.getUser(req.params.id);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: data,
-        message: 'User fetched successfully'
-      });
+      const data = await this.UserService.getUser(req.body);
+      if(data){
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'User fetched successfully'
+        });
+
+      }
+      else{
+        res.status(HttpStatus.BAD_REQUEST).json(
+          {
+            code:HttpStatus.BAD_REQUEST,
+            data:data,
+            message:"try again "
+          }
+        )
+      }
+      
+      
     } catch (error) {
       next(error);
     }
@@ -65,6 +80,8 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
+     
+
       const data = await this.UserService.newUser(req.body);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
@@ -121,6 +138,7 @@ class UserController {
       next(error);
     }
   };
+
 }
 
 export default UserController;
