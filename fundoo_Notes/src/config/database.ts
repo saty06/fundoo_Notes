@@ -7,6 +7,8 @@ dotenv.config();
 export { DataTypes } from 'sequelize';
 
 const logger = Logger.logger;
+  export const secret_key= process.env.SECREATKEY
+  console.log(secret_key)
 
 let DATABASE = process.env.DATABASE;
 let USERNAME = process.env.DB_USERNAME;

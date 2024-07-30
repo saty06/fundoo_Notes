@@ -10,6 +10,8 @@ import ErrorHandler from './middlewares/error.middleware';
 import Logger from './config/logger';
 
 import morgan from 'morgan';
+import { secret_key } from './config/database';
+console.log(secret_key)
 
 class App {
   public app: Application;

@@ -166,3 +166,5 @@ info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T0
 info: Connected to the database. {"timestamp":"2024-07-26T09:27:55.521Z"}
 info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:28:35.403Z"}
 info: Connected to the database. {"timestamp":"2024-07-26T09:28:35.668Z"}
+info: Server started at http://localhost:3400/api/v1/ {"timestamp":"2024-07-26T09:59:44.734Z"}
+info: Connected to the database. {"timestamp":"2024-07-26T09:59:45.020Z"}

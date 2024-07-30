@@ -63,7 +63,7 @@ class UserService {
            }
            const isPasswordValid = await bcrypt.compare(body.password, user.password);
            if(isPasswordValid){
-            return "user successful"
+            return user
            }       
      
     }

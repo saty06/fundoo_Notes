@@ -3,6 +3,8 @@ import HttpStatus from 'http-status-codes';
 import userService from '../services/user.service';
 
 import { Request, Response, NextFunction } from 'express';
+import { secret_key } from '../config/database';
+import jwt from 'jsonwebtoken'
 
 
 class UserController {
@@ -37,6 +39,7 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
+  // login data 
   public getUser = async (
     req: Request,
     res: Response,
@@ -45,9 +48,13 @@ class UserController {
     try {
       const data = await this.UserService.getUser(req.body);
       if(data){
+        const token = await jwt.sign({userId:data}, secret_key, {expiresIn:'24h'})
+        
+
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
           data: data,
+          token:token,
           message: 'User fetched successfully'
         });
 
