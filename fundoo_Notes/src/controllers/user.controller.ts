@@ -5,6 +5,9 @@ import userService from '../services/user.service';
 // const cookieParser = require('cookie-parser');
 
 import { Request, Response, NextFunction } from 'express';
+import { secret_key } from '../config/database';
+import jwt from 'jsonwebtoken'
+
 
 class UserController {
   public UserService = new userService();
@@ -33,6 +36,7 @@ class UserController {
   };
 
   /**
+<<<<<<< HEAD
   * Controller to get a single user
   * @param  {object} Request - request object
   * @param {object} Response - response object
@@ -63,12 +67,21 @@ class UserController {
  * @param {object} Response - response object
  * @param {Function} NextFunction
  */
+=======
+   * Controller to get a single user
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
+  // login data 
+>>>>>>> users
   public getUser = async (
     req: Request,
     res: Response,
     next: NextFunction
   ): Promise<any> => {
     try {
+<<<<<<< HEAD
       // const token = await req.cookies.jwt;
       // if (!token) {
       //   return res.status(HttpStatus.UNAUTHORIZED).json({
@@ -83,12 +96,66 @@ class UserController {
         data: data,
         message: 'User fetched successfully'
       });
+=======
+      const data = await this.UserService.getUser(req.body);
+      if(data){
+        const token = await jwt.sign({userId:data}, secret_key, {expiresIn:'24h'})
+        
+
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          token:token,
+          message: 'User fetched successfully'
+        });
+
+      }
+      else{
+        res.status(HttpStatus.BAD_REQUEST).json(
+          {
+            code:HttpStatus.BAD_REQUEST,
+            data:data,
+            message:"try again "
+          }
+        )
+      }
+      
+      
+>>>>>>> users
     } catch (error) {
       next(error);
     }
   };
 
   /**
+<<<<<<< HEAD
+=======
+   * Controller to create new user
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
+  public newUser = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+     
+
+      const data = await this.UserService.newUser(req.body);
+      res.status(HttpStatus.CREATED).json({
+        code: HttpStatus.CREATED,
+        data: data,
+        message: 'User created successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  /**
+>>>>>>> users
    * Controller to update a user
    * @param  {object} Request - request object
    * @param {object} Response - response object
@@ -117,6 +184,7 @@ class UserController {
    * @param {object} Response - response object
    * @param {Function} NextFunction
    */
+<<<<<<< HEAD
     public updateUserPassword = async (
       req: Request,
       res: Response,
@@ -180,6 +248,24 @@ public reset = async (
     next(error);
   }
 };
+=======
+  public deleteUser = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+      await this.UserService.deleteUser(req.params.id);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: {},
+        message: 'User deleted successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+>>>>>>> users
 
 }
 

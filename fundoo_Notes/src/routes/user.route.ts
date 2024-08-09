@@ -3,6 +3,7 @@ import userController from '../controllers/user.controller';
 import userValidator from '../validators/user.validator';
 import { userAuth, forgetUserAuth } from '../middlewares/auth.middleware';
 
+
 class UserRoutes {
   private UserController = new userController();
   private router = express.Router();
@@ -18,6 +19,7 @@ class UserRoutes {
     
     this.router.post('/login', this.UserValidator.login, this.UserController.login);
 
+<<<<<<< HEAD
     this.router.get('/', userAuth,  this.UserController.getUser);
 
     this.router.put('/update/', userAuth, this.UserValidator.update, this.UserController.updateUser);
@@ -32,6 +34,24 @@ class UserRoutes {
 
     ////////////////////////////////////////////////////////////
 
+=======
+    //route to create a new user
+    this.router.post(
+      '',
+      // this.UserValidator.newUser,
+      this.UserController.newUser
+    );
+
+    //route to get a single user by their id
+    // this.router.get('/:id', userAuth, this.UserController.getUser);
+    this.router.get('/login',this.UserController.getUser )// auth is required 
+
+    //route to update a user by their id
+    this.router.put('/:id', userAuth, this.UserController.updateUser);
+
+    //route to delete a user by their id
+    this.router.delete('/:id', userAuth, this.UserController.deleteUser);
+>>>>>>> users
   };
 
   public getRoutes = (): IRouter => {

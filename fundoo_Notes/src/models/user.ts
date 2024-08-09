@@ -7,6 +7,7 @@ const bcrypt = require('bcrypt');
 
 export default (sequelize, DataTypes) => {
   class User extends Model<IUser> implements IUser {
+<<<<<<< HEAD
     public firstName!: string;
     public lastName!: string;
     public email!: string;
@@ -15,6 +16,12 @@ export default (sequelize, DataTypes) => {
     public dob!: DateOnlyDataType;
     public gender;
 
+=======
+    public firstName;
+    public lastName;
+    public email;
+    public password
+>>>>>>> users
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -26,6 +33,7 @@ export default (sequelize, DataTypes) => {
   }
   User.init(
     {
+<<<<<<< HEAD
       firstName: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -56,6 +64,12 @@ export default (sequelize, DataTypes) => {
         type: DataTypes.STRING,
         allowNull: true,
       }
+=======
+      firstName: DataTypes.STRING,
+      lastName: DataTypes.STRING,
+      email: DataTypes.STRING,
+      password:DataTypes.STRING
+>>>>>>> users
     },
     {
       sequelize,
@@ -80,3 +94,4 @@ export default (sequelize, DataTypes) => {
   
   return User;
 };
+

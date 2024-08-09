@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
 import { Request, Response, NextFunction } from 'express';
+import { secret_key } from '../config/database';
 
 
 import Util from '../utils/user.util';
@@ -28,9 +29,15 @@ export const userAuth = async (
       };
     bearerToken = bearerToken.split(' ')[1];
 
+<<<<<<< HEAD
     const {id, name} : any = await Utils.verify(bearerToken);
     (req as any ).id = id;
     (req as any ).name = name;
+=======
+    const { user }: any = await jwt.verify(bearerToken, secret_key);
+    res.locals.user = user;
+    res.locals.token = bearerToken;
+>>>>>>> users
     next();
   } catch (error) {
     next(error);

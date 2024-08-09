@@ -8,12 +8,31 @@
         {
             "date": 1721893350242,
             "name": "logs\\server\\daily\\2024-07-25.log",
+<<<<<<< HEAD
             "hash": "b8ca4b62679b73b6f8f1b8d1e9676068ab976c047e6e98fc5a0ba6104b761419"
         },
         {
             "date": 1723097816675,
             "name": "logs\\server\\daily\\2024-08-08.log",
             "hash": "5a9fa464fd1b2034787859d4b3abee67cb1a0b6f798480f82251feb541a98227"
+=======
+            "hash": "70542906d4ba57f72fe82b1f0ab994b2679545079486a7d9cb0dc2e55432024a"
+        },
+        {
+            "date": 1721969723368,
+            "name": "logs\\server\\daily\\2024-07-26.log",
+            "hash": "62fe48e336df95492d53786dc7e5f25ba086dce2e50c072875b79e620533964d"
+        },
+        {
+            "date": 1722319282104,
+            "name": "logs\\server\\daily\\2024-07-30.log",
+            "hash": "428dbfdf0901d8dd8a65ccfab9ae8c8a493f5abdbb05f7f55e87e132e0b240b7"
+        },
+        {
+            "date": 1722924649273,
+            "name": "logs\\server\\daily\\2024-08-06.log",
+            "hash": "952375c2fb55da721e646c5ce9f469fdab05e7843cc1879d60e281d55b8c10c8"
+>>>>>>> users
         }
     ],
     "hashType": "sha256"

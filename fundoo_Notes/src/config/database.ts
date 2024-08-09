@@ -8,7 +8,13 @@ import config from './config';
 
 export { DataTypes } from 'sequelize';
 
+<<<<<<< HEAD
 // const logger = Logger.logger;
+=======
+const logger = Logger.logger;
+  export const secret_key= process.env.SECREATKEY
+  console.log(secret_key)
+>>>>>>> users
 
 let DATABASE = config.development.database;
 let USERNAME = config.development.username;

@@ -12,6 +12,12 @@ import ErrorHandler from './middlewares/error.middleware';
 import Logger from './config/logger';
 
 import morgan from 'morgan';
+import swaggerJSDoc from 'swagger-jsdoc'
+import swaggerUI from 'swagger-ui-express'
+import swaggerDocument from './swagger.json';
+
+
+
 
 //swagger
 const swaggerUi = require('swagger-ui-express');
@@ -45,7 +51,11 @@ class App {
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(express.json());
     this.app.use(morgan('combined', { stream: this.logStream }));
+<<<<<<< HEAD
    
+=======
+    this.app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
+>>>>>>> users
   }
 
   public initializeRoutes(): void {
