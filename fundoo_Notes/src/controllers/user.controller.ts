@@ -6,7 +6,7 @@ import { Request, Response, NextFunction } from 'express';
 
 class UserController {
   public UserService = new userService();
-
+ 
   /**
    * Controller to get all users available
    * @param  {object} Request - request object

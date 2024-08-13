@@ -3,7 +3,7 @@
 'use strict';
 import { Model } from 'sequelize';
 import { IUser } from '../interfaces/user.interface';
-
+ 
 export default (sequelize, DataTypes) => {
   class User extends Model<IUser> implements IUser {
     public firstName;
@@ -26,8 +26,7 @@ export default (sequelize, DataTypes) => {
     },
     {
       sequelize,
-      modelName: 'user',
-      schema:'demo'
+      modelName: 'user'
     }
   );
   return User;

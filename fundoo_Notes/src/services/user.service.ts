@@ -2,7 +2,7 @@ import sequelize, { DataTypes } from '../config/database';
 import { IUser } from '../interfaces/user.interface';
 
 import user from '../models/user';
-
+ 
 class UserService {
   private User = user(sequelize, DataTypes);
 
