@@ -1,4 +1,4 @@
-import { Sequelize } from 'sequelize';
+import { DataTypes, Sequelize } from 'sequelize';
 // import Logger from './logger';
 
 // Config File import
@@ -23,7 +23,6 @@ if (process.env.NODE_ENV === 'test') {
   HOST = config.test.host;
   PORT = parseInt(config.test.port);
 }
-
 const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
   host: HOST,
   port: PORT,
@@ -41,12 +40,12 @@ sequelize
   .then(() => {
     console.log('Connected to the database.');
     // logger.info('Connected to the database.');
-  })
+  })  
   .catch((error) => {
     console.log('Could not connect to the database.', error.message);
     // logger.error('Could not connect to the database.', error);
-  });
-
+  }); 
+ 
 sequelize.sync();
 
 export default sequelize;

@@ -1,22 +1,14 @@
-info: ::1 - - [25/Jul/2024:08:02:46 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+info: ::1 - - [25/Jul/2024:15:46:50 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.40.0"
 
-info: ::1 - - [25/Jul/2024:08:02:49 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+info: ::1 - - [25/Jul/2024:15:47:49 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.40.0"
 
-info: ::1 - - [25/Jul/2024:08:02:50 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+info: ::1 - - [25/Jul/2024:15:51:36 +0000] "POST /api/v1/users HTTP/1.1" 201 289 "-" "PostmanRuntime/7.40.0"
 
-info: ::1 - - [25/Jul/2024:08:02:51 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+info: ::1 - - [25/Jul/2024:15:53:54 +0000] "GET /api/v1/users/1 HTTP/1.1" 200 289 "-" "PostmanRuntime/7.40.0"
 
-info: ::1 - - [25/Jul/2024:08:02:51 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+info: ::1 - - [25/Jul/2024:15:54:22 +0000] "POST /api/v1/users HTTP/1.1" 500 51 "-" "PostmanRuntime/7.40.0"
 
-info: ::1 - - [25/Jul/2024:08:03:38 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+info: ::1 - - [25/Jul/2024:15:54:49 +0000] "POST /api/v1/users/1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
 
-info: ::1 - - [25/Jul/2024:08:03:40 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
-
-info: ::1 - - [25/Jul/2024:08:03:40 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
-
-info: ::1 - - [25/Jul/2024:08:03:40 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
-
-info: ::1 - - [25/Jul/2024:08:03:41 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
-
-info: ::1 - - [25/Jul/2024:08:04:31 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+info: ::1 - - [25/Jul/2024:15:54:57 +0000] "GET /api/v1/users/1 HTTP/1.1" 200 289 "-" "PostmanRuntime/7.40.0"
 
