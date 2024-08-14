@@ -11,13 +11,11 @@ class UserService {
     const data = await this.User.findAll();
     return data;
   };
-
   //create a new user
   public newUser = async (body) => {
     const data = await this.User.create(body);
     return data;
   };
-
   //update a user
   public updateUser = async (id, body) => {
     await this.User.update(body, {
